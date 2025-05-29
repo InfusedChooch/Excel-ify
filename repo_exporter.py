@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 # /tools/repo_exporter.py
-#
-# Export every “relevant” text file in a project to a single Excel workbook.
-# Now with:
-#   1.  Polished Summary sheet (frozen header, table style, type column, hyperlinks)
-#   2.  Per-file sheets show line numbers & nicer row height
-#   3.  One sheet per top-level directory (long repos stay readable)
-#   5.  “Stats” sheet with quick project metrics
-#   7.  Optional auto-format of Python files via black (if installed)
-#   8.  Click-through file:// links from the Summary tab
-# --------------------------------------------------------------------------
+
 from __future__ import annotations
 
 import mimetypes
